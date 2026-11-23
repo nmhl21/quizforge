@@ -2,3 +2,9 @@ node_modules/
 dist/
 .env
 .DS_Store
+
+video/*.mp4
+video/narr/
+video/slide-*.png
+video/build_video.py
+video/make_slides.py

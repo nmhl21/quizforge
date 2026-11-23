@@ -94,6 +94,9 @@ function scoreQuiz() {
 
 function renderResult() {
   const { quiz, latencyMs, wordCount, simulated } = currentQuiz;
+  if (typeof window !== "undefined" && window.__quizforgeDebug) {
+    window.__quizforgeDebug.currentQuiz = currentQuiz;
+  }
   const badge = simulated ? "Simulated · Quiz (demo)" : "Cloud · Gemini";
   const badgeClass = simulated ? "badge-device" : "badge-cloud";
   const el = $("#result");
