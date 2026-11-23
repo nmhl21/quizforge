@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "firebase": "13.4.0"
+  },
+  "description": "QuizForge \u2014 paste study notes, get an interactive quiz + flashcards. AI-generated with Gemini via Firebase AI Logic.",
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "name": "quizforge",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview --port 4173 --strictPort",
+    "test": "node scripts/test-ui.mjs"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
