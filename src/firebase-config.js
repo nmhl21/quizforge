@@ -21,7 +21,7 @@
 // are enforced server-side in Google Cloud, not by hiding the key).
 
 export const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyCkleH4UNWTBRwRb6zKLwpleK205HCtCxI",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "",
   authDomain:
     import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "briefly-aa68d.firebaseapp.com",
   projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "briefly-aa68d",
